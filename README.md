@@ -87,7 +87,7 @@ For editor/IDE extensions:
 
 ## License
 
-Assets are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Assets are licensed under [CC BY 4.0](LICENSE).
 
 You may use these assets to:
 - Reference Agent Formation in documentation
