@@ -2,39 +2,37 @@
 
 > Official logos, icons, badges, and brand guidelines for Agent Formation.
 
-⚠️ **Coming soon** — This repo is a placeholder.
-
 ---
 
 ## Contents
 
 ```
-assets/
+.
 ├── logo/
-│   ├── logo.svg              # Primary logo (vector)
-│   ├── logo-dark.svg         # For dark backgrounds
-│   ├── logo-light.svg        # For light backgrounds
-│   ├── logo-256.png
-│   ├── logo-128.png
-│   ├── logo-64.png
-│   ├── logo-32.png
-│   └── logo-16.png           # Favicon size
+│   ├── afs-logo.svg              # Primary logo (vector)
+│   ├── afs-logo-dark.svg         # For dark themes
+│   ├── afs-logo-light.svg        # For light themes
+│   ├── afs-logo-1024x1024.png
+│   ├── afs-logo-512x512.png
+│   ├── afs-logo-256x256.png
+│   ├── afs-logo-128x128.png
+│   ├── afs-logo-64x64.png
+│   ├── afs-logo-32x32.png
+│   └── afs-logo-16x16.png        # Favicon size
 ├── icons/
-│   ├── file-icon.svg         # Generic .afs file icon
-│   ├── file-icon-dark.svg    # For dark themes
-│   ├── file-icon-light.svg   # For light themes
-│   ├── formation-icon.svg    # Formation file icon
-│   ├── agent-icon.svg        # Agent file icon
-│   ├── mcp-icon.svg          # MCP file icon
-│   └── a2a-icon.svg          # A2A file icon
+│   ├── afs-file.svg              # Generic .afs file icon
+│   ├── afs-file-dark.svg         # For dark themes
+│   ├── afs-file-light.svg        # For light themes
+│   ├── afs-file-1024x1024.png
+│   ├── afs-file-512x512.png
+│   ├── afs-file-256x256.png
+│   ├── afs-file-128x128.png
+│   ├── afs-file-64x64.png
+│   └── afs-file-32x32.png
 ├── badges/
-│   ├── afs-compatible.svg    # "AFS Compatible" badge
+│   ├── afs-compatible.svg        # "AFS Compatible" badge
 │   └── afs-compatible.png
-├── social/
-│   ├── og-image.png          # Open Graph image (1200x630)
-│   └── twitter-card.png      # Twitter card image
-├── COLORS.md                 # Brand color palette
-├── GUIDELINES.md             # Usage guidelines
+├── afs-logo.png                  # Top-level logo export
 └── README.md
 ```
 
@@ -44,20 +42,18 @@ assets/
 
 | Name | Hex | Usage |
 |------|-----|-------|
-| Primary | `#CC7351` | Logo, accents |
+| Primary | `#D86E4E` | Logo, accents |
 | Dark | `#16191D` | Text, dark mode |
 | Light | `#F9FAFB` | Backgrounds |
-
-Full palette in [COLORS.md](COLORS.md).
 
 ---
 
 ## Usage
 
 ### Logo
-- Use the full logo for documentation, websites, presentations
-- Use the icon (AF mark) for favicons, app icons, small spaces
-- Maintain clear space around the logo
+- Use the full logo for documentation, websites, and presentations
+- Use the icon (AF mark) for favicons, app icons, and small spaces
+- Maintain a clear space around the logo
 - Don't stretch, rotate, or modify colors
 
 ### Badge
@@ -69,8 +65,8 @@ Add to your README to indicate AFS compatibility:
 
 ### File Icons
 For editor/IDE extensions:
-- Use `file-icon-dark.svg` for dark themes
-- Use `file-icon-light.svg` for light themes
+- Use `afs-file-dark.svg` for dark themes
+- Use `afs-file-light.svg` for light themes
 - Use type-specific icons when distinguishing formation/agent/mcp/a2a files
 
 ---
@@ -79,8 +75,8 @@ For editor/IDE extensions:
 
 | Asset | SVG | PNG |
 |-------|-----|-----|
-| Logo | [logo.svg](logo/logo.svg) | [logo-256.png](logo/logo-256.png) |
-| File Icon | [file-icon.svg](icons/file-icon.svg) | [file-icon-32.png](icons/file-icon-32.png) |
+| Logo | [afs-logo.svg](logo/afs-logo.svg) | [afs-logo-512x512.png](logo/afs-logo-512x512.png) |
+| File Icon | [afs-file.svg](icons/afs-file.svg) | [afs-file-128x128.png](icons/afs-file-128x128.png) |
 | Badge | [afs-compatible.svg](badges/afs-compatible.svg) | [afs-compatible.png](badges/afs-compatible.png) |
 
 ---
